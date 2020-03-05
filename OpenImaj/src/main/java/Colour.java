@@ -1,3 +1,5 @@
+
+//TEST
 public enum Colour
 {
 	RED,

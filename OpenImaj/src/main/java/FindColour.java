@@ -31,6 +31,13 @@ public class FindColour
 		return false;
 	}
 	
+	/**
+	 * Checks whether the pixel corresponds to red
+	 * @param start
+	 * @param end
+	 * @param image
+	 * @return
+	 */
 	private boolean findRed(Point start, Point end, MBFImage image)
 	{
 		// Find areal af kvadrant

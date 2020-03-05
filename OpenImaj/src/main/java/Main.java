@@ -1,10 +1,7 @@
 import org.openimaj.image.DisplayUtilities;
-import org.openimaj.image.Image;
 import org.openimaj.image.ImageUtilities;
 import org.openimaj.image.MBFImage;
-import org.openimaj.image.pixel.Pixel;
 
-import javax.swing.text.Utilities;
 import java.awt.*;
 import java.io.File;
 import java.io.IOException;
@@ -16,7 +13,7 @@ public class Main
 		final float THRESHOLD = 2.6f;
 		final int SCALE = 12;
 		
-		MBFImage image = ImageUtilities.readMBF(new File("BaneMedBolde0.jpg"));
+		MBFImage image = ImageUtilities.readMBF(new File("resources/BaneMedBolde0.jpg"));
 		MBFImage clone = image.clone();
 		MBFImage raw = new MBFImage(image.getWidth()/SCALE, image.getHeight()/SCALE);
 		

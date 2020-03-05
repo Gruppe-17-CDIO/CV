@@ -1,10 +1,10 @@
-package BallDetection;
+package objectRecon.balls;
 
-import org.openimaj.image.*;
+import org.openimaj.image.DisplayUtilities;
+import org.openimaj.image.ImageUtilities;
+import org.openimaj.image.MBFImage;
 import org.openimaj.image.colour.Transforms;
 import org.openimaj.image.pixel.Pixel;
-
-
 
 import java.io.File;
 import java.io.IOException;
